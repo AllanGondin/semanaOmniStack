@@ -6,7 +6,8 @@ app.get('/', (request, response)=>{
     return response.json({
         evento: 'Semana OmniStack 11.0',
         aluno: 'Allan Gondin',
-        Poder: 'Terra'
+        Poder: 'Terra',
+        Habilidade: 'Controla toda terra ao redor'
     });
 });
 
