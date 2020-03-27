@@ -21,7 +21,7 @@ module.exports = {
         'ongs.city', 
         'ongs.uf'])//select all incidents data, and some informations on ongs data
 
-        response.header('X-Total_Count', count['count(*)']);
+        response.header('X-Total_Count', count['count(*)']); //count how much cases i have on the total.
     
         return response.json(incidents);
  
